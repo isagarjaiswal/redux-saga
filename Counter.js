@@ -1,6 +1,7 @@
 import React from 'react'
 import { PropTypes } from 'prop-types';
 
+
 const Counter = ({ value, onIncrement, onDecrement }) =>
       <div>
         <button onClick={onIncrement}>
@@ -15,6 +16,7 @@ const Counter = ({ value, onIncrement, onDecrement }) =>
           Clicked: {value} times
         </div>
       </div>
+
 
 Counter.propTypes = {
   value: PropTypes.number.isRequired,
